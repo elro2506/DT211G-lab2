@@ -12,11 +12,15 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-  gap: 20px;
   border-collapse: collapse;
 }
 
 th, td {
   padding: 10px;
-  border: 0.5px solid #ddd;
+  border-bottom: 0.5px solid #ddd;
+}
+
+input {
+  padding: 10px;
+ min-width: 300px;
 }
